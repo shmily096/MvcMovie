@@ -1,0 +1,25 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <header>
+        <h1>Test MyLayout</h1>
+    </header>
+    <div>
+        @RenderBody()
+    </div>
+    <footer>
+        <div>
+            <p>&copy; @DateTime.Now.Year - 我的 ASP.NET MVC 应用程序</p>
+        </div>
+    </footer>
+</body>
+</html>
